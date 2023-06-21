@@ -1,0 +1,39 @@
+{% extends "core/base.html" %}
+{% block title %}Items{% endblock %}
+
+{% block content %}
+ <h1>checkout page</h1>
+  <!-- Set up a container element for the button -->
+  <div id="paypal-button-container"></div>
+
+  <!-- Include the PayPal JavaScript SDK -->
+  <script src="https://www.paypal.com/sdk/js?client-id=test&currency=USD"></script>
+
+  <script>
+      // Render the PayPal button into #paypal-button-container
+      paypal.Buttons({
+
+          // Set up the transaction
+          createOrder: function(data, actions) {
+              return actions.order.create({
+                  purchase_units: [{
+                      amount: {
+                          value: '45'
+                      }
+                  }]
+              });
+          },
+
+          // Finalize the transaction
+          onApprove: function(data, actions) {
+              return actions.order.capture().then(function(orderData) {
+                  // Successful capture! For demo purposes:
+                  console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+                  
+              });
+          }
+
+
+      }).render('#paypal-button-container');
+  </script>
+{% endblock %}

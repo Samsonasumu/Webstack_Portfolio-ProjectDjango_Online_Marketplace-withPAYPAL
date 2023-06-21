@@ -35,9 +35,9 @@ def items(request):
     return render(request,'item/items.html',
     {'items':items,}
     )
-
-
-
+def  checkout(request):
+    
+    return render(request,'item/checkout.html', )
 
 @login_required
 def delete(request,pk):
