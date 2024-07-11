@@ -26,7 +26,10 @@ pip install -r requirements.txt
 
 This project aims at building a simple online marketplace in using Django
 
+## django
 ![Screenshot from 2023-06-09 03-15-54](https://github.com/Samsonasumu/Webstack_Portfolio-ProjectDjango_Online_Marketplace/assets/99386103/384d6066-3b8d-4604-993e-110525535b29)
+
+
 ![Screenshot from 2023-06-09 03-16-07](https://github.com/Samsonasumu/Webstack_Portfolio-ProjectDjango_Online_Marketplace/assets/99386103/f4c6d765-dc6e-4782-a539-5b8290e40351)
 ![Screenshot from 2023-06-09 03-16-31](https://github.com/Samsonasumu/Webstack_Portfolio-ProjectDjango_Online_Marketplace/assets/99386103/c27971d6-4d98-4c67-bd81-fed89bdbaddb)
 ![Screenshot from 2023-06-09 03-16-59](https://github.com/Samsonasumu/Webstack_Portfolio-ProjectDjango_Online_Marketplace/assets/99386103/e03ca58d-9801-4af8-9866-d96461987eea)
