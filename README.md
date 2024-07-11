@@ -1,4 +1,29 @@
 # Webstack_Portfolio-ProjectDjango_Online_Marketplace
+ 
+## Description
+This online marketplace allows users to:
+
+Register and create accounts
+Browse and search for products
+View product details and descriptions
+(Potentially) Add products to a cart and complete purchases (consider integrating a payment gateway like PayPal)
+## Installation
+
+### Prerequisites
+
+* Python (version 3.x recommended)
+* pip (package installer)
+
+### Clone the Repository
+
+```bash
+git clone [https://github.com/Samsonasumu/Webstack_Portfolio-ProjectDjango_Online_Marketplace-withPAYPAL.git](https://github.com/Samsonasumu/Webstack_Portfolio-ProjectDjango_Online_Marketplace-withPAYPAL.git)
+
+cd Webstack_Portfolio-ProjectDjango_Online_Marketplace-withPAYPAL/mysite
+
+pip install -r requirements.txt
+
+
 This project aims at building a simple online marketplace in using Django
 
 ![Screenshot from 2023-06-09 03-15-54](https://github.com/Samsonasumu/Webstack_Portfolio-ProjectDjango_Online_Marketplace/assets/99386103/384d6066-3b8d-4604-993e-110525535b29)
